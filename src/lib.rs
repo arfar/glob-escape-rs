@@ -1,15 +1,5 @@
 pub fn escape(unescaped: String) -> String {
-    let mut num_chars_to_escape = 0;
-
-    for c in unescaped.chars() {
-        match c {
-            '['|'?'|'*' => num_chars_to_escape += 1,
-            _ => continue
-        }
-    }
-    println!("{} contains {} escape-able character(s)", unescaped, num_chars_to_escape);
-
-    let mut escaped = String::with_capacity(num_chars_to_escape + unescaped.len());
+    let mut escaped = String::with_capacity(unescaped.len());
 
     for c in unescaped.chars() {
         match c {
