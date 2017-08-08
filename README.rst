@@ -14,7 +14,20 @@ being consumed by glob itself.
 TODO
 ====
 
-* Write a TODO
+* Improve implementation
+
+  - I think I'll need some help here, I'm unsure:
+
+    #. what a more efficient algorithm would be
+
+    #. how to do partial string copy in rust
+
+
+* Write docs
+
+* Improve tests to call glob and show actual use cases
+
+* Use library (relies on other project in C calling this rust library)
 
 License
 =======
