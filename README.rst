@@ -1,3 +1,10 @@
+UPDATE
+######
+Just realised that glob already implements escape. On the plus side, it's been
+implemented in pretty much the exact same way that I've done it here. So that's
+pretty cool. Great minds think alike etc etc. This package is useless, but I'm
+going to leave it up just because.
+
 glob-escape-rs
 ##############
 
